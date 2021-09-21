@@ -2,21 +2,40 @@
   "id_map": {},
   "mod_elements": [
     {
-      "name": "Test",
-      "type": "tab",
+      "name": "EtoileFilante",
+      "type": "particle",
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "test"
+      "registry_name": "etoile_filante"
+    },
+    {
+      "name": "ApparitionEtoilesFilantes",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "apparition_etoiles_filantes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "itemGroup.tabtest": "Test"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
